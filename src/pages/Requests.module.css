@@ -1,0 +1,63 @@
+.pageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.pageHeader h1 {
+  margin-bottom: 0.25rem;
+}
+
+.pageHeader p {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.input, .select {
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  outline: none;
+  font-family: inherit;
+}
+
+.input:focus, .select:focus {
+  border-color: var(--accent-blue);
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0 0.5rem;
+}
+
+.searchContainer:focus-within {
+  border-color: var(--accent-blue);
+}
+
+.searchInput {
+  border: none;
+  background: none;
+  color: var(--text-primary);
+  padding: 0.6rem 0.5rem;
+  outline: none;
+  width: 250px;
+}
+
+.tableCard {
+  overflow-x: auto;
+}
