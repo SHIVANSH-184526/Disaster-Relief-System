@@ -32,7 +32,7 @@ export default function DashboardLayout() {
       <aside className={styles.sidebar}>
         <div className={styles.logo}>
           <ShieldAlert className={styles.logoIcon} size={28} />
-          <span>CrisisNet</span>
+          <span>Sahayta Connect</span>
         </div>
         
         <nav className={styles.nav}>

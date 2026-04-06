@@ -1,4 +1,4 @@
-# CrisisNet Dashboard
+# Sahayta Connect Dashboard
 
 A React + Vite application for Disaster Relief Coordination. Features robust mock-data rendering for emergency requests, inventory management, supply allocation, and analytics.
 
